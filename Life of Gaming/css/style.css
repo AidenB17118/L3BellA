@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+}
+    
+#text {
+    width: 50%;
+    background-color: black;
+    background: rgba(0, 0, 0, 0.75);
+    font-family: Cabin;
+    margin: auto;
+    padding: 20px;
+    float: left;
+    color: white;
+}
+
+#image1 {
+    background-image: url(../images/header.jpg);
+    height: 640px;
+    background-attachment: fixed;
+}
+
+#image2 {
+    background-image: url(../images/esports.jpg);
+    height: 640px;
+    background-attachment: fixed;   
+}
+
+
+#image3 {
+    background-image: url(../images/gaming-as-a-job.jpg);
+    height: 640px;
+    background-attachment: fixed;
+    
+}
+
+
+#image4 {
+    background-image: url(../images/neffects.jpg);
+    height: 640px;
+    background-attachment: fixed;
+}
+.logo{
+    height: 100px;
+}
+
+/* Navigation */
+
+#navbar {
+  overflow: hidden;
+  background-color: rgba(0,0,0,1);
+}
+
+#navbar ul {
+   text-align: center;
+}
+  
+#navbar a {  
+    color: white;
+    text-decoration: underline;
+    padding: 20px;
+    font-family: 'Bungee', cursive;
+    font-size: 2.1em;
+}
+
+
+#navbar a:hover {
+  background-color: lightblue;
+  color: black;
+    text-decoration: line-through;
+}
+
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
